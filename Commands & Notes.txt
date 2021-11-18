@@ -1,4 +1,4 @@
 In Security Group open Port 8080 & 9990
 
 Run Image:
-docker run -p 8080:8080 -p 9990:9990 -it wkt-image
+docker run -p 8080:80 -p 9990:9990 -it wkt-image
