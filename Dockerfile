@@ -1,7 +1,7 @@
 FROM jboss/wildfly:13.0.0.Final
 
-ENV MYSQL_URL mysql:3306
-ENV MYSQL_DB test
+ENV MYSQL_URL wktdev-mysql-cluster-1.cluster-chnqvuctmgas.eu-central-1.rds.amazonaws.com:3306
+ENV MYSQL_DB wkt
 ENV MYSQL_MIN_POOL_SIZE 5
 
 ENV WILDFLY_MEMORY 2g
